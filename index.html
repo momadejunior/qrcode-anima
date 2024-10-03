@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple QR Code Generator and Downloader</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1>QR Code Generator</h1>
+  <input type="text" id="urlInput" placeholder="Enter URL" value="https://codepen.io/jerora98/"><br>
+  <button onclick="generateQR()">Generate QR Code</button><br>
+  <canvas id="qrcode"></canvas><br>
+  <button onclick="downloadQR()">Download QR Code</button>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
